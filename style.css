@@ -1,0 +1,106 @@
+h1 {
+	font-size: 175%;
+	align-content: center;
+	margin: auto;
+	text-align: center;
+	font-style: italic;
+}
+* {
+	box-sizing: border-box;
+}
+.p {
+	border: 50px green;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%
+}
+#ph1 {
+	box-sizing: border-box;
+	margin-left: 80%;
+	border: 1px solid black;
+	width: 20%;
+	background-color: red;
+}
+#ph2 {
+	box-sizing: border-box;
+	margin-left: 80%;
+	border: 1px solid black;
+	width: 20%;
+	background-color: violet;
+}
+#ph3 {
+	box-sizing: border-box;
+	margin-left: 80%;
+	border: 1px solid black;
+	width: 20%;
+	background-color: yellow;
+}
+@media (min-width: 1200px) {
+	#p1, #p2, #p3 {
+		border: blue solid;
+		border-spacing: 1px;
+		float: left;
+		background-color: grey;
+		font-family: nexa bold;
+		color: blue;
+	}
+	#p1 {
+		margin: 20px;
+		width: 30%;
+	}
+	#p2 {
+		margin: 20px;
+		width: 30%;
+	}
+	#p3 {
+		margin: 20px;
+		width: 30%;
+	}
+}
+@media (max-width: 800px) {
+	#p1, #p2, #p3 {
+		margin-bottom: 20px;
+		border-collapse: separate;
+		border: blue solid;
+		border-spacing: 100px 100px;
+		float: top;
+		background-color: grey;
+		font-family: nexa bold;
+		color: blue;
+	}
+	#p1 {
+		width: 100%;
+	}
+	#p2 {
+		width: 100%;
+	}
+	#p3 {
+		width: 100%;
+	}
+}
+@media (min-width: 800px) and (max-width: 1199px) {
+	#p1, #p2, #p3 {
+		border: blue solid;
+		border-spacing: 1px;
+		float: left;
+		background-color: grey;
+		font-family: nexa bold;
+		color: blue;
+	}
+	#p1 {
+		margin: 20px;
+		width: 40%;
+	}
+	#p2 {
+		margin: 20px;
+		width: 40%;
+	}
+	#p3 {
+		margin: 20px;
+		width: 84%;
+	}
+	#ph3 {
+		margin-left: 90%;
+		width: 10%
+	}
+}
